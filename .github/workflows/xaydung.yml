@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://va0-ftp.uploads.androidfilehost.com/dl/P9nMaLHOkhvEPbOGjfsYNA/1600421306/8889791610682939035/forkLineage-17.1-20200916-UNOFFICIAL-lavender.zip?
+  ROM_URL: https://udomain.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv12/xiaomi.eu_multi_MIMix2S_V12.0.1.0.QDGCNXM_v12-10.zip
   ROM_NAME: MIUI
   BUILD_AB: true
   BUILD_Aonly: false
   ROM_AONLY: MIUI_Toan704_A.7z
-  ROM_AB: MIUI_V1_AB.7z
+  ROM_AB: MIUIMiMix2S_AB.7z
 
 jobs:
   build:
